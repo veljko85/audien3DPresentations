@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #37465a;
+      }
+    </style>
+  </defs>
+  <g>
+    <g>
+      <polygon class="cls-2" points="335.85 42.09 251.15 97.06 226.86 64.5 311.57 9.53 335.85 42.09"/>
+      <g>
+        <polygon class="cls-2" points="-596.21 576.06 -25.86 205.94 21.32 269.21 -549.02 639.32 -596.21 576.06"/>
+        <ellipse class="cls-2" cx="-2.39" cy="237.42" rx="48.05" ry="39.39" transform="translate(-101.12 21.49) rotate(-25.15)"/>
+      </g>
+      <g>
+        <ellipse class="cls-2" cx="53.47" cy="202.33" rx="48.05" ry="39.39" transform="translate(-80.92 41.9) rotate(-25.15)"/>
+        <polygon class="cls-2" points="29.76 170.55 270.12 14.57 317.53 78.14 77.17 234.12 29.76 170.55"/>
+      </g>
+      <ellipse class="cls-2" cx="288.66" cy="49.09" rx="20.2" ry="39.17" transform="translate(31.15 188.46) rotate(-38.08)"/>
+      <ellipse class="cls-2" cx="324.74" cy="25.56" rx="13.36" ry="19.99" transform="translate(58.73 213.58) rotate(-39.75)"/>
+    </g>
+    <ellipse class="cls-1" cx="327.66" cy="23.56" rx="5.29" ry="12.81" transform="translate(44.45 190.01) rotate(-34.56)"/>
+  </g>
+  <g>
+    <g>
+      <polygon class="cls-2" points="387.54 122.06 302.83 177.02 278.54 144.46 363.25 89.49 387.54 122.06"/>
+      <g>
+        <polygon class="cls-2" points="-544.52 656.02 25.82 285.91 73.01 349.17 -497.34 719.29 -544.52 656.02"/>
+        <ellipse class="cls-2" cx="49.3" cy="317.39" rx="48.05" ry="39.39" transform="translate(-130.21 51.04) rotate(-25.15)"/>
+      </g>
+      <g>
+        <ellipse class="cls-2" cx="105.15" cy="282.3" rx="48.05" ry="39.39" transform="translate(-110 71.45) rotate(-25.15)"/>
+        <polygon class="cls-2" points="81.44 250.51 321.8 94.54 369.21 158.11 128.86 314.08 81.44 250.51"/>
+      </g>
+      <ellipse class="cls-2" cx="340.34" cy="129.06" rx="20.2" ry="39.17" transform="translate(-7.17 237.35) rotate(-38.08)"/>
+      <ellipse class="cls-2" cx="376.43" cy="105.52" rx="13.36" ry="19.99" transform="translate(19.55 265.12) rotate(-39.75)"/>
+    </g>
+    <ellipse class="cls-1" cx="379.34" cy="103.52" rx="5.29" ry="12.81" transform="translate(8.21 233.44) rotate(-34.56)"/>
+  </g>
+  <g>
+    <g>
+      <polygon class="cls-2" points="443.39 197.06 358.68 252.02 334.39 219.46 419.1 164.49 443.39 197.06"/>
+      <g>
+        <polygon class="cls-2" points="-488.67 731.02 81.67 360.91 128.86 424.17 -441.49 794.29 -488.67 731.02"/>
+        <ellipse class="cls-2" cx="105.15" cy="392.39" rx="48.05" ry="39.39" transform="translate(-156.79 81.88) rotate(-25.15)"/>
+      </g>
+      <g>
+        <ellipse class="cls-2" cx="161" cy="357.3" rx="48.05" ry="39.39" transform="translate(-136.58 102.29) rotate(-25.15)"/>
+        <polygon class="cls-2" points="137.29 325.51 377.65 169.54 425.07 233.11 184.71 389.08 137.29 325.51"/>
+      </g>
+      <ellipse class="cls-2" cx="396.19" cy="204.06" rx="20.2" ry="39.17" transform="translate(-41.53 287.75) rotate(-38.08)"/>
+      <ellipse class="cls-2" cx="432.28" cy="180.52" rx="13.36" ry="19.99" transform="translate(-15.5 318.17) rotate(-39.75)"/>
+    </g>
+    <ellipse class="cls-1" cx="435.19" cy="178.52" rx="5.29" ry="12.81" transform="translate(-24.48 278.35) rotate(-34.56)"/>
+  </g>
+  <g>
+    <g>
+      <polygon class="cls-2" points="498.2 272.54 413.49 327.51 389.21 294.95 473.91 239.98 498.2 272.54"/>
+      <g>
+        <polygon class="cls-2" points="-433.86 806.51 136.49 436.4 183.67 499.66 -386.68 869.77 -433.86 806.51"/>
+        <ellipse class="cls-2" cx="159.96" cy="467.87" rx="48.05" ry="39.39" transform="translate(-183.67 112.33) rotate(-25.15)"/>
+      </g>
+      <g>
+        <ellipse class="cls-2" cx="215.81" cy="432.79" rx="48.05" ry="39.39" transform="translate(-163.46 132.74) rotate(-25.15)"/>
+        <polygon class="cls-2" points="192.11 401 432.47 245.02 479.88 308.6 239.52 464.57 192.11 401"/>
+      </g>
+      <ellipse class="cls-2" cx="451.01" cy="279.55" rx="20.2" ry="39.17" transform="translate(-76.42 337.62) rotate(-38.08)"/>
+      <ellipse class="cls-2" cx="487.09" cy="256.01" rx="13.36" ry="19.99" transform="translate(-51.1 370.68) rotate(-39.75)"/>
+    </g>
+    <ellipse class="cls-1" cx="490.01" cy="254.01" rx="5.29" ry="12.81" transform="translate(-57.63 322.77) rotate(-34.56)"/>
+  </g>
+</svg>

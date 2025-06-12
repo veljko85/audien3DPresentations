@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #37465a;
+      }
+    </style>
+  </defs>
+  <g id="dongle_computer_hardware_technology_network" data-name="dongle computer hardware technology network">
+    <path class="cls-1" d="m30,14h-4v-7c0-3.31-2.69-6-6-6s-6,2.69-6,6v18.5c0,1.93-1.57,3.5-3.5,3.5s-3.5-1.57-3.5-3.5v-8.5h3c.55,0,1-.45,1-1V6c0-.55-.45-1-1-1H2c-.55,0-1,.45-1,1v10c0,.55.45,1,1,1h3v8.5c0,3.04,2.46,5.5,5.5,5.5s5.5-2.46,5.5-5.5V7c0-2.21,1.79-4,4-4s4,1.79,4,4v7h-4c-.55,0-1,.45-1,1v10c0,.55.45,1,1,1v4c0,.55.45,1,1,1h8c.55,0,1-.45,1-1v-4c.55,0,1-.45,1-1v-10c0-.55-.45-1-1-1Zm-2,15h-2v-1c0-.55-.45-1-1-1s-1,.45-1,1v1h-2v-3h6v3Z"/>
+    <path class="cls-1" d="m9,2c0-.55-.45-1-1-1h-4c-.55,0-1,.45-1,1v2h6v-2Z"/>
+  </g>
+</svg>
