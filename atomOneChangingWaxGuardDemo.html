@@ -14,10 +14,10 @@
 
     <!-- <script src="https://cdn.babylonjs.com/gui/babylon.gui.min.js"></script> -->
 
-  <script type="module" crossorigin src="./assets/atomOneChangingWaxGuardDemo-CV8aVK9J.js"></script>
-  <link rel="modulepreload" crossorigin href="./assets/style-BZM-wnC6.js">
-  <link rel="modulepreload" crossorigin href="./assets/orientationChengeChecker-GHbWIVxj.js">
-  <link rel="stylesheet" crossorigin href="./assets/style-CVQE33MS.css">
+  <script type="module" crossorigin src="./assets/atomOneChangingWaxGuardDemo-CVgdzjQa.js"></script>
+  <link rel="modulepreload" crossorigin href="./assets/style-gmYdrXIM.js">
+  <link rel="modulepreload" crossorigin href="./assets/orientationChengeChecker-CMupSh7_.js">
+  <link rel="stylesheet" crossorigin href="./assets/style-BRna7CBh.css">
   <script type="module">import.meta.url;import("_").catch(()=>1);(async function*(){})().next();if(location.protocol!="file:"){window.__vite_is_modern_browser=true}</script>
   <script type="module">!function(){if(window.__vite_is_modern_browser)return;console.warn("vite: loading legacy chunks, syntax error above and the same error below should be ignored");var e=document.getElementById("vite-legacy-polyfill"),n=document.createElement("script");n.src=e.src,n.onload=function(){System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))},document.body.appendChild(n)}();</script>
 </head>
@@ -68,21 +68,87 @@
                 <div id="menuTittleIcon"><i id="menuTittleIconFa" class="fa-solid fa-chevron-right"></i></div>
                 <div id="menuTittleText">Menu</div>
             </div>
-            <div class="menu-button" id="removeEarDomeButton" style="font-size: 14px;">
-                Remove Ear Dome
-                <div class="menu-button-icon" style="background-image: url(./icons/removeDome4.svg);"></div>
+            <div class="header-instruction header-instruction-wax-guard" style="border: none;">
+                Follow the steps below to change the wax guard
             </div>
-            <div class="menu-button" id="removeOldWaxGuardButton" style="font-size: 14px;">
-                Remove Old Wax Guard
-                <div class="menu-button-icon" style="background-image: url(./icons/removeWaxGuard3.svg);"></div>
-            </div>
-            <div class="menu-button" id="attachNewWaxGuardButton" style="font-size: 14px;">
-                Attach New Wax Guard
-                <div class="menu-button-icon" style="background-image: url(./icons/attachWaxGuard3.svg);"></div>
-            </div>
-            <div class="menu-button" id="attachEarDomeButton" style="font-size: 14px;">
-                Attach Ear Dome
-                <div class="menu-button-icon" style="background-image: url(./icons/attachDome.svg);"></div>
+            <div class="menu-buttons-container">
+
+                <div class="menu-button menu-button-step" id="removeEarDomeButton" style="font-size: 14px; border-color: #37465a;">
+
+                    <div class="menu-button-top-container menu-button-top-container-step">
+                        <div class="menu-button-title-container">
+                            <div class="nextStepIndicator">Next Step <i class="fa-solid fa-play"></i></div>
+                            <div class="menu-button-title" style="font-size: 13px; font-weight: 700;">1. Remove Ear Dome
+                            </div>
+                        </div>
+                        <div class="menu-button-icon"
+                            style="background-image: url(./icons/removeDome4.svg); margin: 0 5px;"></div>
+                    </div>
+
+                    <div class="menu-button-bottom-container menu-button-bottom-container-step">
+                        <div class="menu-button-description" style="justify-content: left; text-align: left;">
+                            Shows how to remove the ear dome.
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="menu-button menu-button-step" id="removeOldWaxGuardButton" style="font-size: 14px;">
+                    <div class="menu-button-top-container menu-button-top-container-step">
+                        <div class="menu-button-title-container">
+                            <div class="nextStepIndicator">Next Step <i class="fa-solid fa-play"></i></div>
+                            <div class="menu-button-title" style="font-size: 13px; font-weight: 700;">2. Remove Old Wax
+                                Guard
+                            </div>
+                        </div>
+                        <div class="menu-button-icon"
+                            style="background-image: url(./icons/removeWaxGuard3.svg); margin: 0 5px;"></div>
+                    </div>
+                    <div class="menu-button-bottom-container menu-button-bottom-container-step">
+                        <div class="menu-button-description"
+                            style="font-size: 11px; justify-content: left; text-align: left;">
+                            Shows how to remove the old wax guard.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-button menu-button-step" id="attachNewWaxGuardButton" style="font-size: 14px;">
+                    <div class="menu-button-top-container menu-button-top-container-step">  
+                        <div class="menu-button-title-container">
+                            <div class="nextStepIndicator">Next Step <i class="fa-solid fa-play"></i></div>
+                            <div class="menu-button-title" style="font-size: 13px; font-weight: 700;">3. Attach New Wax
+                                Guard
+                            </div>
+                        </div>
+                        <div class="menu-button-icon"
+                            style="background-image: url(./icons/attachWaxGuard3.svg); margin: 0 5px;">
+                        </div>
+                    </div>
+                    <div class="menu-button-bottom-container menu-button-bottom-container-step">
+                        <div class="menu-button-description"
+                            style="font-size: 11px; justify-content: left; text-align: left;">
+                            Shows how to attach the new wax guard.
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-button menu-button-step" id="attachEarDomeButton" style="font-size: 14px;">
+                    <div class="menu-button-top-container menu-button-top-container-step">
+                        <div class="menu-button-title-container">
+                            <div class="nextStepIndicator">Next Step <i class="fa-solid fa-play"></i></div>
+                            <div class="menu-button-title" style="font-size: 13px; font-weight: 700;">4. Attach Ear Dome
+                            </div>
+                        </div>
+                        <div class="menu-button-icon"
+                            style="background-image: url(./icons/attachDome.svg); margin: 0 5px;">
+                        </div>
+                    </div>
+                    <div class="menu-button-bottom-container menu-button-bottom-container-step">    
+                        <div class="menu-button-description"
+                            style="font-size: 11px; justify-content: left; text-align: left;">
+                            Shows how to attach the ear dome.
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -93,7 +159,7 @@
     </div> -->
   <script nomodule>!function(){var e=document,t=e.createElement("script");if(!("noModule"in t)&&"onbeforeload"in t){var n=!1;e.addEventListener("beforeload",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute("nomodule")||!n)return;e.preventDefault()}),!0),t.type="module",t.src=".",e.head.appendChild(t),t.remove()}}();</script>
   <script nomodule crossorigin id="vite-legacy-polyfill" src="./assets/polyfills-legacy-C0yoilnZ.js"></script>
-  <script nomodule crossorigin id="vite-legacy-entry" data-src="./assets/atomOneChangingWaxGuardDemo-legacy-BqI7rrNr.js">System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))</script>
+  <script nomodule crossorigin id="vite-legacy-entry" data-src="./assets/atomOneChangingWaxGuardDemo-legacy-C-RcuGZy.js">System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))</script>
 </body>
 
 </html>

@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./soundbar_logo_squre.jpg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Audien Atom Air Wax Guard Changing Demo</title>
+    <!-- lootie -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.6.4/lottie_svg.min.js"></script> -->
+    <!-- css -->
+    <!-- Add Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- <script src="https://cdn.babylonjs.com/gui/babylon.gui.min.js"></script> -->
+
+  <script type="module" crossorigin src="./assets/atomAirChangingWaxGuardDemo-H1dSrOdd.js"></script>
+  <link rel="modulepreload" crossorigin href="./assets/style-gmYdrXIM.js">
+  <link rel="modulepreload" crossorigin href="./assets/orientationChengeChecker-CMupSh7_.js">
+  <link rel="stylesheet" crossorigin href="./assets/style-BRna7CBh.css">
+  <script type="module">import.meta.url;import("_").catch(()=>1);(async function*(){})().next();if(location.protocol!="file:"){window.__vite_is_modern_browser=true}</script>
+  <script type="module">!function(){if(window.__vite_is_modern_browser)return;console.warn("vite: loading legacy chunks, syntax error above and the same error below should be ignored");var e=document.getElementById("vite-legacy-polyfill"),n=document.createElement("script");n.src=e.src,n.onload=function(){System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))},document.body.appendChild(n)}();</script>
+</head>
+
+<body>
+    <div id="app">
+        <!-- loading spinnerrrrr -->
+        <div id="loadingSpinner">
+            <div id="loadingSpinnerBorder"></div>
+            <div id="loadingPercentages">0%</div>
+            <div id="loadingLogo"></div>
+            <!-- <div id="loadingLogo" style="background-image: url(jasperosso_logo_txt_black.svg)"></div> -->
+        </div>
+
+        <!-- FLIP DEVICE -->
+        <div id="orientationScreenContainer">
+            <div id="orientationScreenLogo"></div>
+            <div id="orientationScreenImg"></div>
+            <div id="orientationScreenText">Please rotate your device</div>
+        </div>
+
+        <canvas id="renderCanvas"></canvas>
+
+        <a href="./atomAir.html">
+            <div id="goToHomeButton">
+                <i class="fa-solid fa-arrow-left"></i>
+            </div>
+        </a>
+
+        <div id="modelNameContainer">
+            <div id="modelNameText">Atom Air Wax Guard Changing Demo</div>
+        </div>
+
+        <div id="atomAirWaxGuardAnotationContainer"></div>
+
+        <!-- <div id="hearingIndicatorAnotationContainer" class="anotationContainer"></div>
+
+        <div id="chargingCaseAnotationContainer" class="anotationContainer"></div>
+
+        <div id="uvSterilizationAnotationContainer" class="anotationContainer"></div>
+
+        <div id="hearingAidsAnotationContainer" class="anotationContainer"></div> -->
+
+        <div id="productDisplayLogo"></div>
+
+        <div id="menu-container">
+            <div id="menuTittle">
+                <div id="menuTittleIcon"><i id="menuTittleIconFa" class="fa-solid fa-chevron-right"></i></div>
+                <div id="menuTittleText">Menu</div>
+            </div>
+            <div class="header-instruction header-instruction-wax-guard" style="border: none;">
+                Follow the steps below to change the wax guard
+            </div>
+            <div class="menu-buttons-container">
+
+                <div class="menu-button menu-button-step" id="removeEarDomeButton" style="font-size: 14px; border-color: #37465a;">
+
+                    <div class="menu-button-top-container menu-button-top-container-step">
+                        <div class="menu-button-title-container">
+                            <div class="nextStepIndicator">Next Step <i class="fa-solid fa-play"></i></div>
+                            <div class="menu-button-title" style="font-size: 13px; font-weight: 700;">1. Remove Ear Dome
+                            </div>
+                        </div>
+                        <div class="menu-button-icon"
+                            style="background-image: url(./icons/removeDome4.svg); margin: 0 5px;"></div>
+                    </div>
+
+                    <div class="menu-button-bottom-container menu-button-bottom-container-step">
+                        <div class="menu-button-description" style="justify-content: left; text-align: left;">
+                            Shows how to remove the ear dome.
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="menu-button menu-button-step" id="removeOldWaxGuardButton" style="font-size: 14px;">
+                    <div class="menu-button-top-container menu-button-top-container-step">
+                        <div class="menu-button-title-container">
+                            <div class="nextStepIndicator">Next Step <i class="fa-solid fa-play"></i></div>
+                            <div class="menu-button-title" style="font-size: 13px; font-weight: 700;">2. Remove Old Wax
+                                Guard
+                            </div>
+                        </div>
+                        <div class="menu-button-icon"
+                            style="background-image: url(./icons/removeWaxGuard3.svg); margin: 0 5px;"></div>
+                    </div>
+                    <div class="menu-button-bottom-container menu-button-bottom-container-step">
+                        <div class="menu-button-description"
+                            style="font-size: 11px; justify-content: left; text-align: left;">
+                            Shows how to remove the old wax guard.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-button menu-button-step" id="attachNewWaxGuardButton" style="font-size: 14px;">
+                    <div class="menu-button-top-container menu-button-top-container-step">  
+                        <div class="menu-button-title-container">
+                            <div class="nextStepIndicator">Next Step <i class="fa-solid fa-play"></i></div>
+                            <div class="menu-button-title" style="font-size: 13px; font-weight: 700;">3. Attach New Wax
+                                Guard
+                            </div>
+                        </div>
+                        <div class="menu-button-icon"
+                            style="background-image: url(./icons/attachWaxGuard3.svg); margin: 0 5px;">
+                        </div>
+                    </div>
+                    <div class="menu-button-bottom-container menu-button-bottom-container-step">
+                        <div class="menu-button-description"
+                            style="font-size: 11px; justify-content: left; text-align: left;">
+                            Shows how to attach the new wax guard.
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-button menu-button-step" id="attachEarDomeButton" style="font-size: 14px;">
+                    <div class="menu-button-top-container menu-button-top-container-step">
+                        <div class="menu-button-title-container">
+                            <div class="nextStepIndicator">Next Step <i class="fa-solid fa-play"></i></div>
+                            <div class="menu-button-title" style="font-size: 13px; font-weight: 700;">4. Attach Ear Dome
+                            </div>
+                        </div>
+                        <div class="menu-button-icon"
+                            style="background-image: url(./icons/attachDome.svg); margin: 0 5px;">
+                        </div>
+                    </div>
+                    <div class="menu-button-bottom-container menu-button-bottom-container-step">    
+                        <div class="menu-button-description"
+                            style="font-size: 11px; justify-content: left; text-align: left;">
+                            Shows how to attach the ear dome.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- FPS -->
+        <!-- <p id='fps'
+    style="position: absolute; bottom: 1vw; right: 20vw; font-size: 40px; color: rgb(255, 255, 255); z-index: 1000;">
+    1111</p>
+    </div> -->
+  <script nomodule>!function(){var e=document,t=e.createElement("script");if(!("noModule"in t)&&"onbeforeload"in t){var n=!1;e.addEventListener("beforeload",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute("nomodule")||!n)return;e.preventDefault()}),!0),t.type="module",t.src=".",e.head.appendChild(t),t.remove()}}();</script>
+  <script nomodule crossorigin id="vite-legacy-polyfill" src="./assets/polyfills-legacy-C0yoilnZ.js"></script>
+  <script nomodule crossorigin id="vite-legacy-entry" data-src="./assets/atomAirChangingWaxGuardDemo-legacy-CM6FPQ-W.js">System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))</script>
+</body>
+
+</html>

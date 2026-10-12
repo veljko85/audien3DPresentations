@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./soundbar_logo_squre.jpg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Audien Atom Air Domes Changing Demo</title>
+    <!-- lootie -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.6.4/lottie_svg.min.js"></script> -->
+    <!-- css -->
+    <!-- Add Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- <script src="https://cdn.babylonjs.com/gui/babylon.gui.min.js"></script> -->
+
+  <script type="module" crossorigin src="./assets/atomAirChangingDomeDemo-DoFiLWXw.js"></script>
+  <link rel="modulepreload" crossorigin href="./assets/style-gmYdrXIM.js">
+  <link rel="modulepreload" crossorigin href="./assets/orientationChengeChecker-CMupSh7_.js">
+  <link rel="stylesheet" crossorigin href="./assets/style-BRna7CBh.css">
+  <script type="module">import.meta.url;import("_").catch(()=>1);(async function*(){})().next();if(location.protocol!="file:"){window.__vite_is_modern_browser=true}</script>
+  <script type="module">!function(){if(window.__vite_is_modern_browser)return;console.warn("vite: loading legacy chunks, syntax error above and the same error below should be ignored");var e=document.getElementById("vite-legacy-polyfill"),n=document.createElement("script");n.src=e.src,n.onload=function(){System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))},document.body.appendChild(n)}();</script>
+</head>
+
+<body>
+    <div id="app">
+        <!-- loading spinnerrrrr -->
+        <div id="loadingSpinner">
+            <div id="loadingSpinnerBorder"></div>
+            <div id="loadingPercentages">0%</div>
+            <div id="loadingLogo"></div>
+            <!-- <div id="loadingLogo" style="background-image: url(jasperosso_logo_txt_black.svg)"></div> -->
+        </div>
+
+        <!-- FLIP DEVICE -->
+        <div id="orientationScreenContainer">
+            <div id="orientationScreenLogo"></div>
+            <div id="orientationScreenImg"></div>
+            <div id="orientationScreenText">Please rotate your device</div>
+        </div>
+
+        <canvas id="renderCanvas"></canvas>
+
+        <a href="./atomAir.html">
+            <div id="goToHomeButton">
+                <i class="fa-solid fa-arrow-left"></i>
+            </div>
+        </a>
+
+        <div id="modelNameContainer">
+            <div id="modelNameText">Atom Air Domes Changing Demo</div>
+        </div>
+
+        <div id="atomAirDomeAnotationContainer"></div>
+
+        <!-- <div id="hearingIndicatorAnotationContainer" class="anotationContainer"></div>
+
+        <div id="chargingCaseAnotationContainer" class="anotationContainer"></div>
+
+        <div id="uvSterilizationAnotationContainer" class="anotationContainer"></div>
+
+        <div id="hearingAidsAnotationContainer" class="anotationContainer"></div> -->
+
+        <div id="productDisplayLogo"></div>
+
+        <div id="menu-container">
+            <div id="menuTittle">
+                <div id="menuTittleIcon"><i id="menuTittleIconFa" class="fa-solid fa-chevron-right"></i></div>
+                <div id="menuTittleText">Menu</div>
+            </div>
+            <div class="header-instruction">
+                Tap a section to remove ear dome.
+            </div>
+            <div class="menu-buttons-container">
+                <!-- <div id="activeButtonIndicator"></div> -->
+                <div class="menu-button" id="removeEarDomeButton" style="font-size: 14px;">
+                    <div class="menu-button-top-container">
+                        <div class="menu-button-title">Remove Ear Dome</div>
+                        <div class="menu-button-icon" style="background-image: url(./icons/removeDome4.svg);"></div>
+                    </div>
+                    <div class="menu-button-bottom-container">
+                        <div class="menu-button-description">
+                            Shows how to remove the ear dome.
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-button" id="attachMediumEarDomeButton" style="font-size: 14px;">
+                    <div class="menu-button-top-container">
+                        <div class="menu-button-title" style="font-size: 15px;">Attach Medium Ear Dome</div>
+                        <div class="menu-button-icon" style="background-image: url(./icons/mediumDome.svg);"></div>
+                    </div>
+                    <div class="menu-button-bottom-container">
+                        <div class="menu-button-description" style="font-size: 11px;">
+                            Shows how to attach a medium ear dome.
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-button" id="attachLargeEarDomeButton" style="font-size: 14px;">
+                    <div class="menu-button-top-container">
+                        <div class="menu-button-title">Attach Large Ear Dome</div>
+                        <div class="menu-button-icon" style="background-image: url(./icons/largeDome.svg);"></div>
+                    </div>
+                    <div class="menu-button-bottom-container">
+                        <div class="menu-button-description">
+                            Shows how to attach a large ear dome.
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-button" id="attachSmallEarDomeButton" style="font-size: 14px;">
+                    <div class="menu-button-top-container">
+                        <div class="menu-button-title">Attach Small Ear Dome</div>
+                        <div class="menu-button-icon" style="background-image: url(./icons/smallDome.svg);"></div>
+                    </div>
+                    <div class="menu-button-bottom-container">
+                        <div class="menu-button-description">
+                            Shows how to attach a small ear dome.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- FPS -->
+        <!-- <p id='fps'
+    style="position: absolute; bottom: 1vw; right: 20vw; font-size: 40px; color: rgb(255, 255, 255); z-index: 1000;">
+    1111</p>
+    </div> -->
+  <script nomodule>!function(){var e=document,t=e.createElement("script");if(!("noModule"in t)&&"onbeforeload"in t){var n=!1;e.addEventListener("beforeload",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute("nomodule")||!n)return;e.preventDefault()}),!0),t.type="module",t.src=".",e.head.appendChild(t),t.remove()}}();</script>
+  <script nomodule crossorigin id="vite-legacy-polyfill" src="./assets/polyfills-legacy-C0yoilnZ.js"></script>
+  <script nomodule crossorigin id="vite-legacy-entry" data-src="./assets/atomAirChangingDomeDemo-legacy-CM1UV3jd.js">System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))</script>
+</body>
+
+</html>

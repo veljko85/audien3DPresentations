@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./soundbar_logo_squre.jpg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Audien Domes Comparation</title>
+    <!-- css -->
+    <!-- Add Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <script type="module" crossorigin src="./assets/domesComparation-9iYsfA3S.js"></script>
+  <link rel="modulepreload" crossorigin href="./assets/style-gmYdrXIM.js">
+  <link rel="modulepreload" crossorigin href="./assets/orientationChengeChecker-CMupSh7_.js">
+  <link rel="modulepreload" crossorigin href="./assets/waterMaterial-BybdSStm.js">
+  <link rel="modulepreload" crossorigin href="./assets/textLinksLines-dqkM2dSA.js">
+  <link rel="stylesheet" crossorigin href="./assets/style-BRna7CBh.css">
+  <script type="module">import.meta.url;import("_").catch(()=>1);(async function*(){})().next();if(location.protocol!="file:"){window.__vite_is_modern_browser=true}</script>
+  <script type="module">!function(){if(window.__vite_is_modern_browser)return;console.warn("vite: loading legacy chunks, syntax error above and the same error below should be ignored");var e=document.getElementById("vite-legacy-polyfill"),n=document.createElement("script");n.src=e.src,n.onload=function(){System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))},document.body.appendChild(n)}();</script>
+</head>
+
+<body>
+    <div id="app">
+        <!-- loading spinnerrrrr -->
+        <div id="loadingSpinner">
+            <div id="loadingSpinnerBorder"></div>
+            <div id="loadingPercentages">0%</div>
+            <div id="loadingLogo"></div>
+            <!-- <div id="loadingLogo" style="background-image: url(jasperosso_logo_txt_black.svg)"></div> -->
+        </div>
+
+        <!-- FLIP DEVICE -->
+        <div id="orientationScreenContainer">
+            <div id="orientationScreenLogo"></div>
+            <div id="orientationScreenImg"></div>
+            <div id="orientationScreenText">Please rotate your device</div>
+        </div>
+
+        <canvas id="renderCanvas"></canvas>
+
+        <a href="./index.html">
+            <div id="goToHomeButton">
+                <i class="fa-solid fa-arrow-left"></i>
+            </div>
+        </a>
+
+        <div id="modelNameContainer">
+            <div id="modelNameText">Domes Comparation</div>
+        </div>
+
+        <div id="allDomeTypesAnotationContainer" class="anotationContainer"></div>      
+
+        <div id="hearingIndicatorAnotationContainer" class="anotationContainer"></div>
+
+        <div id="chargingCaseAnotationContainer" class="anotationContainer"></div>
+
+        <div id="uvSterilizationAnotationContainer" class="anotationContainer"></div>
+
+        <div id="hearingAidsAnotationContainer" class="anotationContainer">
+            <!-- <div class="singleAnotationContainer">
+                <div class="singleAnotationText">All Anotations</div>
+                <input class="singleAnotationButton" type="checkbox">
+            </div> -->
+        </div>
+
+        <div id="productDisplayLogo"></div>
+
+        <div id="curentDeviceStateDisplay">
+            All Dome Types
+        </div>
+
+        <!-- <div id="title">ATOM 2 PRO</div> -->
+        <div id="menu-container">
+            <div id="menuTittle">
+                <div id="menuTittleIcon"><i id="menuTittleIconFa" class="fa-solid fa-chevron-right"></i></div>
+                <div id="menuTittleText">Menu</div>
+            </div>
+            <div class="header-instruction">
+                Tap a section to view dome types
+            </div>
+            <div class="menu-buttons-container">
+                <div id="activeButtonIndicator"></div>
+                <div class="menu-button" id="allDomesAnimationButton">
+                    <div class="menu-button-top-container">
+                        <div class="menu-button-title">All Dome Types</div>
+                        <div class="menu-button-icon" style="background-image: url(./icons/allDomeTypes.svg);"></div>
+                    </div>
+                    <div class="menu-button-bottom-container">
+                        <div class="menu-button-description">
+                            Displays all dome types.
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-button" id="openDomeAnimationButton">
+                    <div class="menu-button-top-container">
+                        <div class="menu-button-title">Open Dome</div>
+                        <div class="menu-button-icon" style="background-image: url(./icons/openDome.svg);"></div>
+                    </div>
+                    <div class="menu-button-bottom-container">
+                        <div class="menu-button-description">
+                            Displays the open dome type.
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-button" id="tulipDomeAnimationButton">
+                    <div class="menu-button-top-container">
+                        <div class="menu-button-title">Tulip Dome</div>
+                        <div class="menu-button-icon" style="background-image: url(./icons/tulipDome.svg);"></div>
+                    </div>
+                    <div class="menu-button-bottom-container">
+                        <div class="menu-button-description">
+                            Displays the tulip dome type.
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-button" id="closedDomeAnimationButton">
+                    <div class="menu-button-top-container">
+                        <div class="menu-button-title">Closed Dome</div>
+                        <div class="menu-button-icon" style="background-image: url(./icons/closedDome.svg);">
+                        </div>
+                    </div>
+                    <div class="menu-button-bottom-container">
+                        <div class="menu-button-description">
+                            Displays the closed dome type.
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-button" id="powerDomeAnimationButton">
+                    <div class="menu-button-top-container">
+                        <div class="menu-button-title">Power Dome</div>
+                        <div class="menu-button-icon" style="background-image: url(./icons/powerDome.svg);"></div>
+                    </div>
+                    <div class="menu-button-bottom-container">
+                        <div class="menu-button-description">
+                            Displays the power dome type.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- FPS -->
+        <!-- <p id='fps'
+    style="position: absolute; bottom: 1vw; right: 20vw; font-size: 40px; color: rgb(255, 255, 255); z-index: 1000;">
+    1111</p>
+    </div> -->
+  <script nomodule>!function(){var e=document,t=e.createElement("script");if(!("noModule"in t)&&"onbeforeload"in t){var n=!1;e.addEventListener("beforeload",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute("nomodule")||!n)return;e.preventDefault()}),!0),t.type="module",t.src=".",e.head.appendChild(t),t.remove()}}();</script>
+  <script nomodule crossorigin id="vite-legacy-polyfill" src="./assets/polyfills-legacy-C0yoilnZ.js"></script>
+  <script nomodule crossorigin id="vite-legacy-entry" data-src="./assets/domesComparation-legacy-C1m0KUPI.js">System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))</script>
+</body>
+
+</html>
